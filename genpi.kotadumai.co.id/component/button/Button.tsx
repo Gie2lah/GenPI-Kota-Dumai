@@ -1,7 +1,11 @@
 import React from "react";
 import clsx from "clsx";
 
-const Button = (props: { children: any; onClick: any; className: any }) => {
+const Button = (props: {
+  children: string;
+  onClick: any;
+  className: string;
+}) => {
   const { children, onClick, className } = props;
   return (
     <button
