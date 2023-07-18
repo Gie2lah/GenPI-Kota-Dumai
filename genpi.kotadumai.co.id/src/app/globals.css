@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+.cursot-newtab {
+  cursor: url("/website-genpi/public/images/new-tab.png") 10 10 pointer;
+}
+
+h1,
+.h1 {
+  @apply font-cinzel text-2xl font-extrabold md:text-4xl;
+}
+
+h2,
+.h2 {
+  @apply text-xl font-bold md:text-3xl;
+}
+
+h3,
+.h3 {
+  @apply text-lg font-bold md:text-2xl;
+}
+
+h4,
+.h4 {
+  @apply text-base font-bold md:text-lg;
+}
+
+h5,
+.h5 {
+  @apply text-sm font-bold md:text-base;
+}
+
+body,
+.body {
+  @apply font-quick text-sm md:text-base;
+}
+
+.card {
+  max-width: 330px;
+  border-radius: 10px;
+  box-shadow: -7px 5px 12px -4px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+}
+
+.card-image {
+  background-color: #c9c9c9;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: inset 8px 8px 10px #c3c3c3, inset -8px -8px 10px #cfcfcf;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 2px 4px 2px 4px;
+  margin-top: 12px;
+}
+
+.bg {
+  background-image: url("/genpi.kotadumai.co.id/public/images/bg-blob.svg");
+}
