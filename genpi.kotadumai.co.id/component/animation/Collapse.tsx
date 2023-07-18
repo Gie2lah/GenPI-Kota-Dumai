@@ -36,7 +36,8 @@ const TujuanCollapse = () => {
   );
 
   const handleCollapseClick = (
-    imageSrc: StaticImageData | React.SetStateAction<string>
+    // imageSrc: StaticImageData | React.SetStateAction<string>
+    imageSrc: React.SetStateAction<StaticImageData>
   ) => {
     if (imageSrc !== currentImageSrc) {
       setCurrentImageSrc(imageSrc);
