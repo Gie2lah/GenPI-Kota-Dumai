@@ -2,9 +2,9 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-type PageWrapperProps = {
-  children: string;
-} & React.ComponentPropsWithoutRef<"div">;
+export interface PageWrapperProps {
+  children: React.ReactNode;
+}
 
 export default function PageWrapper({ children }: PageWrapperProps) {
   return (
