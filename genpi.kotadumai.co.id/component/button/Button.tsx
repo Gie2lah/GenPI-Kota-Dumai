@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 
 export interface ButtonProps {
-  children: JSX.Element | JSX.Element[];
+  children: React.ReactNode;
   className: string;
   onClick: any;
 }
