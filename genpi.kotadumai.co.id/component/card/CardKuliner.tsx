@@ -25,16 +25,16 @@ export default function CardKuliner() {
               </div>
               <div className="flex justify-center">
                 <div className="text-center">
-                  <h4>{k.label}</h4>
+                  <p className="font-bold">{k.label}</p>
                   {/* <h5 className="harga">Rp.20.000</h5> */}
-                  <p className="">{k.name}</p>
-                  <p>{k.alamat}</p>
+                  {/* <p className="">{k.name}</p> */}
+                  {/* <p>{k.alamat}</p> */}
                 </div>
               </div>
-              <div className="flex justify-center items-center gap-4">
-                <p>⭐ 4.5</p>
-                <IoMapOutline />
-                <IoInformationCircleOutline />
+              <div className="flex items-center gap-4">
+                {/* <p>⭐ 4.5</p> */}
+                {/* <IoMapOutline />
+                <IoInformationCircleOutline /> */}
               </div>
             </div>
           </>
@@ -47,44 +47,14 @@ export default function CardKuliner() {
 const kuliner = [
   {
     image: sate,
-    label: "Sate Madura",
-    harga: "20000",
-    name: "Sate Pak Kembus",
-    alamat: "Jalan Parit Sadak",
+    label: "Kerupuk Ubi Cabe",
   },
   {
     image: baksoRahayu,
-    label: "Bakso",
-    harga: "20000",
-    name: "Bakso Rahayo",
-    alamat: "Jalan Sultan Hasanudin",
+    label: "Dodol Nenas",
   },
   {
     image: mieAcehRadja,
-    label: "Mie Aceh",
-    harga: "20000",
-    name: "Mie Aceh Radja",
-    alamat: "Jalan Parit Sadak",
-  },
-  {
-    image: cadMilkBar,
-    label: "Susu Matcha",
-    harga: "20000",
-    name: "Cad Milk Bar",
-    alamat: "Jalan Parit Sadak",
-  },
-  {
-    image: miePangsitNurul,
-    label: "Mie Pangsit",
-    harga: "20000",
-    name: "Mie angsit Nurul",
-    alamat: "Jalan Parit Sadak",
-  },
-  {
-    image: somayKartikaSari,
-    label: "Somay",
-    harga: "20000",
-    name: "Somay Kartika Sari",
-    alamat: "Jalan Parit Sadak",
+    label: "Bolu Kemojo",
   },
 ];

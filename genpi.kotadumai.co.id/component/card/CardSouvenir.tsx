@@ -23,7 +23,7 @@ export default function CardSouvenir() {
               </div>
               <div className="flex justify-center">
                 <div className="text-center">
-                  <h4>{s.label}</h4>
+                  <p className="font-bold">{s.label}</p>
                   {/* <h5 className="harga">Rp.20.000</h5> */}
                   {/* <p className="">{s.name}</p> */}
                   {/* <p>{s.alamat}</p> */}
@@ -40,30 +40,22 @@ export default function CardSouvenir() {
 const souvenir = [
   {
     image: keris,
-    label: "Keris Melayu",
-    harga: "20000",
-    name: "Sate Pak Kembus",
-    alamat: "Jalan Parit Sadak",
+    label: "Keris",
   },
   {
     image: tanjak,
     label: "Tanjak Melayu",
-    harga: "20000",
-    name: "Martabak Kanti",
-    alamat: "Jalan Sultan Hasanudin",
   },
   {
     image: telukBelanga,
-    label: "Teluk Belanga",
-    harga: "20000",
-    name: "Sate Pak Kembus",
-    alamat: "Jalan Parit Sadak",
+    label: "Kain Songket Tenun",
   },
   {
     image: songket,
-    label: "Songket Melayu",
-    harga: "20000",
-    name: "Sate Pak Kembus",
-    alamat: "Jalan Parit Sadak",
+    label: "Perkakas Makanan Bambu",
+  },
+  {
+    image: songket,
+    label: "Batik Tulis Bandar Bakau",
   },
 ];

@@ -45,7 +45,7 @@ export default function Home() {
           </section>
 
           {/* Kategori */}
-          <section className="min-h-screen py-[120px] px-[10%] bg-white">
+          <section className="min-h-screen pt-[120px] px-[10%] bg-white">
             <div className="flex max-w-xs relative">
               <h2 id="menu-kategori" className="relative z-[2]">
                 Menu Kategori
@@ -74,7 +74,7 @@ export default function Home() {
           </section>
 
           {/* Destinasi Objek Wisata */}
-          <section className="min-h-screen py-[120px] px-[10%] bg-white">
+          <section className="min-h-screen pt-[120px] px-[10%] bg-white">
             <div className="flex max-w-md relative">
               <h2 id="menu-kategori" className="relative z-[2]">
                 Destinasi Wisata
@@ -97,7 +97,7 @@ export default function Home() {
               </button>
             </div>
           </section>
-          <section className="min-h-screen py-[120px] px-[10%] bg-white">
+          <section className="min-h-screen pt-[120px] px-[10%] bg-white">
             <div className="flex max-w-md relative">
               <h2 id="menu-kategori" className="relative z-[2]">
                 Kuliner Kota Dumai
@@ -115,7 +115,7 @@ export default function Home() {
               </Button>
             </div>
           </section>
-          <section className="min-h-screen py-[120px] px-[10%] bg-white">
+          <section className="min-h-screen px-[10%] bg-white">
             <div className="flex max-w-md relative">
               <h2 id="menu-kategori" className="relative z-[2]">
                 Souvenir Kota Dumai

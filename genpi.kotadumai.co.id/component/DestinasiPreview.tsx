@@ -17,18 +17,18 @@ const DestinasiPreview = (props: DestinasiMetaData) => {
           className="card-image block"
         />
       </div>
-      <div className="flex justify-center gap-4 items-center mt-3 px-4">
-        <div className="flex items-center gap-x-2 ">⭐ 4.5</div>
-        <div>
+      <div className="flex gap-4 items-center mt-3 px-4">
+        <div>⭐ 4.5</div>
+        {/* <div>
           <Button className={""} onClick={undefined}>
             <IoMapOutline />
           </Button>
-        </div>
+        </div> */}
       </div>
       <div className="py-2 mt-3 px-4">
         <UnstyledLink href={`/destinasi/${props.slug}`}>
           <div className="mt-1">
-            <h4 className="font-bold text-lg">{props.title}</h4>
+            <p className="font-bold text-lg">{props.title}</p>
           </div>
         </UnstyledLink>
       </div>

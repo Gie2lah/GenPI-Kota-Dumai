@@ -25,9 +25,9 @@ export default function CardPenginapan() {
               </div>
               <div className="flex justify-center">
                 <div className="text-center">
-                  <p>{p.label}</p>
+                  <p className="font-bold">{p.label}</p>
                   {/* <h5 className="harga">Rp.20.000</h5> */}
-                  <p className="font-bold">{p.name}</p>
+                  {/* <p className="font-bold">{p.name}</p> */}
                   <p>{p.alamat}</p>
                 </div>
               </div>
@@ -42,44 +42,32 @@ export default function CardPenginapan() {
 const penginapan = [
   {
     image: grandZuriHotel,
-    label: "Hotel",
-    harga: "20000",
-    name: "Grand Zuri Hotel",
-    alamat: "Jalan Parit Sadak",
+    label: "Grand Zuri Hotel",
+    alamat: "Jl. Jend. Sudirman No. 88, Bintan, Kota Dumai, Riau",
   },
   {
     image: citytelHotel,
-    label: "Hotel",
-    harga: "20000",
-    name: "Citytel Hotel",
-    alamat: "Jalan Sultan Hasanudin",
+    label: "Cititel Hotel",
+    alamat: "Jl. Jend. Sudirman No. 429A, Kota Dumai, Riau",
   },
   {
     image: theZuriHotel,
-    label: "Hotel",
-    harga: "20000",
-    name: "The Zuri Hotel",
-    alamat: "Jalan Parit Sadak",
+    label: "The Zuri Hotel",
+    alamat: "Jl. Jend. Sudirman No. 108, Kota Dumai, Riau",
   },
   {
     image: sonaviewDumaiHotel,
-    label: "Hotel",
-    harga: "20000",
-    name: "Sonaview Dumai Hotel",
-    alamat: "Jalan Parit Sadak",
+    label: "Sonaview Dumai Hotel",
+    alamat: "Jl. Pattimura No. 40, Dumai Kota, Kota Dumai, Riau",
   },
   {
     image: patraDumaiHotel,
-    label: "Hotel",
-    harga: "20000",
-    name: "Patra Dumai Hotel",
-    alamat: "Jalan Parit Sadak",
+    label: "Patra Dumai Hotel",
+    alamat: "Jl. Sultan Syarif Kasim, Buluh Kasap, Kota Dumai, Riau",
   },
   {
     image: comfortaHotel,
-    label: "Hotel",
-    harga: "20000",
-    name: "Comforta Hotel",
-    alamat: "Jalan Parit Sadak",
+    label: "Comforta Hotel",
+    alamat: "Jl. Jend. Sudirman, No. 58, Dumai Kota, Kota Dumai, Riau",
   },
 ];
