@@ -123,7 +123,7 @@ const BlogPage = () => {
                 <p className="mb-6 font-bold">
                   Jelajahi keindahan objek wisata bersama teman Anda dan nikmati
                 </p>
-                <Button>
+                <Button onClick={undefined} className="">
                   <UnstyledLink href="#destinasi">Explore now</UnstyledLink>
                 </Button>
               </div>

@@ -28,10 +28,10 @@ export default function ProfilePage() {
                   potensi pariwisata, budaya, dan kreativitas Indonesia.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3">
-                  <Button>
+                  <Button onClick={undefined} className="">
                     <UnstyledLink href={"#about"}>Explore GenPI</UnstyledLink>
                   </Button>
-                  <Button>
+                  <Button onClick={undefined} className="">
                     <UnstyledLink href={"#contact"}>Contact GenPI</UnstyledLink>
                   </Button>
                 </div>

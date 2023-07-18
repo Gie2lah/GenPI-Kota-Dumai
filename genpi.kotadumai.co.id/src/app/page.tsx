@@ -88,7 +88,7 @@ export default function Home() {
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-6 ">
               {destinasiPreviews}
             </div>
-            <Button className={"mt-3"}>
+            <Button className={"mt-3"} onClick={undefined}>
               <UnstyledLink href="/destinasi">Wisata Lainnya</UnstyledLink>
             </Button>
             <div className="hidden">
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             <div className="mt-6">
               <CardKuliner />
-              <Button className={"mt-3"}>
+              <Button className={"mt-3"} onClick={undefined}>
                 <UnstyledLink href="/destinasi">Kuliner Lainnya</UnstyledLink>
               </Button>
             </div>
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
             <div className="mt-6">
               <CardSouvenir />
-              <Button className={"mt-3"}>
+              <Button className={"mt-3"} onClick={undefined}>
                 <UnstyledLink href="/destinasi">Souvenir Lainnya</UnstyledLink>
               </Button>
             </div>
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
             <div className="mt-6">
               <CardPenginapan />
-              <Button className={"mt-3"}>
+              <Button className={"mt-3"} onClick={undefined}>
                 <UnstyledLink href="/destinasi">
                   Penginapan Lainnya
                 </UnstyledLink>
