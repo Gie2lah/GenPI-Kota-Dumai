@@ -1,8 +1,13 @@
 "use client";
 
 import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
+import React from "react";
 
-const Providers = ({ children }) => {
+export interface ProvidersProps {
+  children?: React.ReactNode;
+}
+
+const Providers = ({ children }: ProvidersProps) => {
   return (
     <>
       {children}
