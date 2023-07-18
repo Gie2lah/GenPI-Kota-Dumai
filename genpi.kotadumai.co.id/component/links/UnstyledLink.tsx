@@ -5,7 +5,7 @@ export type UnstyledLinkProps = {
   href: string;
   children: React.ReactNode;
   openNewTab?: boolean;
-  className?: boolean;
+  className?: any;
 } & React.ComponentPropsWithoutRef<"a"> &
   LinkProps;
 
