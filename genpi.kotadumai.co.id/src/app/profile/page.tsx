@@ -11,12 +11,6 @@ import line from "../../../public/images/line.svg";
 import { Metadata } from "next";
 import styles from "../../../component/styles/notFound.module.css";
 
-export const metadata: Metadata = {
-  title: "Profile | GenPI Kota Dumai",
-  description: "Profile Generasi Pesona Indonesia Kota Dumai",
-  keywords: "tentang kami, about us, profile",
-};
-
 export default function ProfilePage() {
   return (
     <>
