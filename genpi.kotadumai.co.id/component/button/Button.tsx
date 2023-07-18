@@ -1,12 +1,13 @@
 import React from "react";
 import clsx from "clsx";
 
-const Button = (props: {
+type ButtonProps = {
   children: string;
-  onClick: any;
   className: string;
-}) => {
-  const { children, onClick, className } = props;
+  onClick: boolean;
+};
+
+const Button = ({ children, onClick, className }: ButtonProps) => {
   return (
     <button
       onClick={onClick}
