@@ -1,11 +1,11 @@
 import React from "react";
 import clsx from "clsx";
 
-type ButtonProps = {
-  children: string;
+export interface ButtonProps {
+  children: JSX.Element | JSX.Element[];
   className: string;
-  onClick: boolean;
-};
+  onClick: any;
+}
 
 const Button = ({ children, onClick, className }: ButtonProps) => {
   return (
