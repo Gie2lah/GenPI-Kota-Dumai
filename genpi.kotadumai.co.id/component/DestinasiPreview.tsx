@@ -20,7 +20,7 @@ const DestinasiPreview = (props: DestinasiMetaData) => {
       <div className="flex justify-center gap-4 items-center mt-3 px-4">
         <div className="flex items-center gap-x-2 ">⭐ 4.5</div>
         <div>
-          <Button>
+          <Button className={""} onClick={undefined}>
             <IoMapOutline />
           </Button>
         </div>
