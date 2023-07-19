@@ -1,8 +1,9 @@
 import React from "react";
-import keris from "../../public/images/souvenir/keris.jpg";
-import telukBelanga from "../../public/images/souvenir/keris.jpg";
-import songket from "../../public/images/souvenir/teluk belanga.jpg";
-import tanjak from "../../public/images/souvenir/tanjak.jpg";
+import keris from "../../public/images/souvenir/keris.png";
+import songketTenun from "../../public/images/souvenir/kain-songket-tenun.png";
+import perkakasMakanan from "../../public/images/souvenir/perkakas-makanan.png";
+import batikTulis from "../../public/images/souvenir/batik-tulis .png";
+import tanjak from "../../public/images/souvenir/tanjak.png";
 import Image from "next/image";
 
 export default function CardSouvenir() {
@@ -47,15 +48,15 @@ const souvenir = [
     label: "Tanjak Melayu",
   },
   {
-    image: telukBelanga,
+    image: songketTenun,
     label: "Kain Songket Tenun",
   },
   {
-    image: songket,
+    image: perkakasMakanan,
     label: "Perkakas Makanan Bambu",
   },
   {
-    image: songket,
+    image: batikTulis,
     label: "Batik Tulis Bandar Bakau",
   },
 ];

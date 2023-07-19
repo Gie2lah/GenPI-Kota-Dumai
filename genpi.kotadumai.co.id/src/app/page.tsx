@@ -11,7 +11,7 @@ import CardKuliner from "../../component/card/CardKuliner";
 import CardSouvenir from "../../component/card/CardSouvenir";
 import CardPenginapan from "../../component/card/CardPenginapan";
 import line from "../../public/images/line.svg";
-import logo2 from "../../public/images/logo/logo2.svg";
+import logo from "../../public/images/logo/logo.png";
 
 export default function Home() {
   const destinasiMetaData = getDestinasiMetaData();
@@ -34,7 +34,7 @@ export default function Home() {
               </div>
               <div className="">
                 <Image
-                  src={logo2}
+                  src={logo}
                   alt={"logo genpi"}
                   width={300}
                   height={300}

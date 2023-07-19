@@ -1,12 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { IoInformationCircleOutline, IoMapOutline } from "react-icons/io5";
-import sate from "../../public/images/kuliner/sate.jpg";
-import baksoRahayu from "../../public/images/kuliner/bakso rahayu.jpg";
-import somayKartikaSari from "../../public/images/kuliner/somay kartika sari.jpg";
-import cadMilkBar from "../../public/images/kuliner/matcha (Cad milk Bar).jpg";
-import mieAcehRadja from "../../public/images/kuliner/mie aceh radja.jpg";
-import miePangsitNurul from "../../public/images/kuliner/mie pangsit nurul.jpg";
+import dodolNenas from "../../public/images/kuliner/dodol-nenas.png";
+import boluKemojo from "../../public/images/kuliner/bolu-kemojo.png";
+import keripikUbi from "../../public/images/kuliner/keripik-ubi.png";
 
 export default function CardKuliner() {
   return (
@@ -46,15 +43,15 @@ export default function CardKuliner() {
 
 const kuliner = [
   {
-    image: sate,
-    label: "Kerupuk Ubi Cabe",
+    image: keripikUbi,
+    label: "Kerupik Ubi Cabe",
   },
   {
-    image: baksoRahayu,
+    image: dodolNenas,
     label: "Dodol Nenas",
   },
   {
-    image: mieAcehRadja,
+    image: boluKemojo,
     label: "Bolu Kemojo",
   },
 ];

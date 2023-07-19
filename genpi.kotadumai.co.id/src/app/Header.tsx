@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/logo/logo2.svg";
+import logo from "../../public/images/logo/logo.png";
 import UnstyledLink from "../../component/links/UnstyledLink";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";

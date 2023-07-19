@@ -15,6 +15,7 @@ import PageWrapper from "../../../component/animation/PageWrapper";
 import line from "../../../public/images/line.svg";
 import line2 from "../../../public/images/line2.svg";
 import { Metadata } from "next";
+import Maps from "../../../component/Maps";
 
 export const metadata: Metadata = {
   title: "Destinasi | GenPI Kota Dumai",
@@ -149,6 +150,19 @@ const BlogPage = () => {
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 rounded-md py-2 mt-3">
               {destinasiPreviews}
             </div>
+          </section>
+          <section className="min-h-screen px-[10%]">
+            <div className="flex max-w-md relative mb-6">
+              <h2 id="menu-kategori" className="relative z-[2]">
+                Peta Wisata Kota Dumai
+              </h2>
+              <Image
+                src={line}
+                alt={"line"}
+                className="absolute max-w-xs z-[1] top-1 w-52 md:w-72"
+              />
+            </div>
+            <Maps />
           </section>
         </>
       </PageWrapper>

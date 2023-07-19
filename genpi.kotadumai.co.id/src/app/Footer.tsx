@@ -10,7 +10,7 @@ import {
 } from "react-icons/io5";
 import Link from "next/link";
 import Image from "next/image";
-import footerPicture from "../../public/images/logo/logo2.svg";
+import footerPicture from "../../public/images/logo/logo.png";
 import UnstyledLink from "../../component/links/UnstyledLink";
 
 const Footer = () => {
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col max-w-md">
-            <h4>Tentang Kami</h4>
+            <h4>Tentang GenPI</h4>
             <div className="flex flex-col gap-y-4 pt-2">
               {abouts.map((about) => (
                 <UnstyledLink href={about.href} className="hover:text-white">
@@ -52,7 +52,7 @@ const Footer = () => {
         <hr className="mt-8" />
       </div>
       <div className="text-white text-center mt-4 pt-[10px] pb-[20px]">
-        <p className="">© GenPI Dumai {new Date().getFullYear()}</p>
+        <p className="">© GenPI Kota Dumai {new Date().getFullYear()}</p>
       </div>
     </footer>
   );
@@ -65,7 +65,7 @@ function SocialLinks() {
     <div className="flex gap-4">
       {socials.map((social) => (
         <div className="flex items-center gap-x-4 py-2 bg-white rounded-full p-4">
-          <Link href={social.href}>
+          <Link href={social.href} target="_blank">
             <p className="text-blue-500">{social.icon}</p>
           </Link>
           {/* <p className="text-base">{social.name}</p> */}
@@ -113,11 +113,11 @@ const socials = [
   },
   {
     icon: <SiYoutube size={20} />,
-    href: "https://www.instagram.com/genpidumai/",
+    href: "https://www.youtube.com/@genpidumai515",
   },
   {
     icon: <SiTiktok size={20} />,
-    href: "https://www.instagram.com/genpidumai/",
+    href: "https://www.tiktok.com/@genpi.dumai",
   },
 ];
 
