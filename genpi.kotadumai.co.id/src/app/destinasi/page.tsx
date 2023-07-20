@@ -154,7 +154,7 @@ const BlogPage = () => {
           <section className="min-h-screen px-[10%]">
             <div className="flex max-w-md relative mb-6">
               <h2 id="menu-kategori" className="relative z-[2]">
-                Peta Wisata Kota Dumai
+                Peta Objek Wisata
               </h2>
               <Image
                 src={line}
