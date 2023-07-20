@@ -44,7 +44,7 @@ export default function Maps() {
         />
         {maps.map(({ position, popup, name }) => (
           <>
-            <Marker position={position} icon={markerIcon}>
+            <Marker position={[position]} icon={markerIcon}>
               <Popup>
                 <p className="font-bold">{name}</p>
                 {popup}
@@ -59,7 +59,7 @@ export default function Maps() {
 
 const maps = [
   {
-    position: [1.6424419303542612, 101.54584520178592],
+    position: 1.6424419303542612 && 101.54584520178592,
     name: "Pantai Koneng",
     popup: (
       <UnstyledLink href="https://www.google.com/maps/place/Pantai+Koneng/@1.6416483,101.5355884,15z/data=!3m1!4b1!4m6!3m5!1s0x31d3baa07803e157:0xcaf2873131247444!8m2!3d1.6416269!4d101.5458882!16s%2Fg%2F11fxfxrt5q?entry=ttu">
